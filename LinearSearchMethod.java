@@ -18,7 +18,8 @@ public class LinearSearchMethod{
 		return -1; // Not found 
 	}
 	
-	public static void main(String[] args){
+	// This is the main method
+  public static void main(String[] args){
 		// Declare an integer array
 		int[] list = {10,35,13,1,8,20,33,23,4,19};
 		int k = 20;
