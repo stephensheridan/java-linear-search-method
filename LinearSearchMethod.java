@@ -27,7 +27,7 @@ public class LinearSearchMethod{
 		// Search the array
 		int index = linearSearch(list, k);
 		// Have we found the value?
-		if (index > 0)
+		if (index >= 0)
 			System.out.printf("Value %d found at index %d.\n", k, index);
 		else
 			System.out.printf("Value %d not found.\n", k);
